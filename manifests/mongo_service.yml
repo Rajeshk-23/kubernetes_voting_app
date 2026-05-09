@@ -4,7 +4,7 @@ metadata:
   name: mongo
   namespace: rajeshk
   labels:
-    role: db
+    role: database
     env: demo
 spec:
   ports:
@@ -12,4 +12,4 @@ spec:
     targetPort: 27017
   clusterIP: None
   selector:
-    role: db
+    role: database
